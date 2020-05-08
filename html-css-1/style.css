@@ -1,0 +1,82 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex
+    
+}
+
+.header-div, .info-cont {
+    width: 100vw;
+    height: 10vh;
+    background-color: silver;
+    
+}
+.company-container {
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+    bottom: 15px
+}
+.info-cont {
+    display: flex;
+    justify-content: space-around;
+}
+.top-container{
+    position: relative;
+    top: 20px;
+    color: white;
+}
+.second-container {
+    background-color: black;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+.yellow-container{
+    color: yellow;
+    font-weight: bold;
+    font-size: 60px;
+}
+.white-container {
+  background-color: white;
+    height: 45vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.turqoise-container {
+   background-color: turquoise;
+    width: 20vw;
+    height: 30vh;
+    margin: 50px;
+}
+.orange-container {
+    background-color: orange;
+    width: 30vw;
+    height: 30vh;
+    margin: 50px;
+}
+.lorem-container{
+    width: 30vw;
+    height: 30vh;
+    position: relative;
+    right: 100px;
+}
+.img-container {
+    width: 25vw;
+    height: 30vh;
+    position: relative;
+    left: 60px;
+}
+
+.footer-container{
+    width: 100vw;
+    height: 20vh;
+    background-color: midnightblue;
+}
